@@ -1,6 +1,6 @@
 {
-	"name": "image-zoom",
-	"version": "0.0.1",
+	"name": "image-zoom-simple",
+	"version": "0.1.0",
 	"scripts": {
 		"dev": "vite dev",
 		"build": "vite build && npm run package",
@@ -17,8 +17,8 @@
 	},
 	"exports": {
 		".": {
-			"types": "./dist/index.d.ts",
-			"svelte": "./dist/index.js"
+			"types": "./dist/ImageZoom.svelte.d.ts",
+			"svelte": "./dist/ImageZoom.svelte"
 		}
 	},
 	"files": [
@@ -49,7 +49,10 @@
 		"vite": "^4.3.6",
 		"vitest": "^0.32.2"
 	},
-	"svelte": "./dist/index.js",
-	"types": "./dist/index.d.ts",
-	"type": "module"
+	"svelte": "./dist/ImageZoom.svelte",
+	"types": "./dist/ImageZoom.svelte.d.ts",
+	"type": "module",
+	"dependencies": {
+		"svelte2tsx": "^0.6.16"
+	}
 }
