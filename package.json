@@ -62,9 +62,9 @@
   "directories": {
     "test": "tests"
   },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
+  "keywords": ["svelte", "zoom", "image", "zoom image", "image zoom", "component"],
+  "author": "Akbar Uddin",
+  "license": "MIT",
   "repository": {
     "type": "git",
     "url": "https://github.com/akbaruddin/image-zoom-simple.git"
