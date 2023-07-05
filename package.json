@@ -1,6 +1,6 @@
 {
   "name": "image-zoom-simple",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "scripts": {
     "dev": "vite dev",
     "build": "vite build && npm run package",
@@ -62,7 +62,14 @@
   "directories": {
     "test": "tests"
   },
-  "keywords": ["svelte", "zoom", "image", "zoom image", "image zoom", "component"],
+  "keywords": [
+    "svelte",
+    "zoom",
+    "image",
+    "zoom image",
+    "image zoom",
+    "component"
+  ],
   "author": "Akbar Uddin",
   "license": "MIT",
   "repository": {
