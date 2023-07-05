@@ -33,4 +33,25 @@ The `ImageZoom` component can be customized using CSS styles. Here are the CSS c
 - `.viewer-box img`: The zoomed-in image element inside the viewer box.
 - `.zoom-selector`: The zoom selector box element.
 
+## Example
+
+```svelte
+<script>
+  import ImageZoom from "image-zoom-simple";
+</script>
+
+<main>
+  <ImageZoom
+    imageStyle={{ width: '200px' }}
+    viewerHeight={250}
+    url="https://images.unsplash.com/photo-1686077304557-d13e1b91ac06?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2864&q=80"
+  />
+  <ImageZoom
+    imageStyle={{ width: '200px' }}
+    viewerHeight={200}
+    url="https://images.unsplash.com/photo-1674574124349-0928f4b2bce3?ixlib=rb-4.0.3&ixid=M3wxMjA3fDF8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1471&q=80"
+  />
+</main>
+```
+
 You can override these styles in your application's CSS to achieve the desired visual appearance.
